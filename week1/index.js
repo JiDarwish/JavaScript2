@@ -2837,7 +2837,7 @@ document.body.appendChild(theHeader);
 //logo (img)
 const theLogo = document.createElement("img");
 theLogo.setAttribute("alt", "HackYourFuture's logo");
-theLogo.setAttribute("src", "http://www.hackyourfuture.net/images/logo/logo-01.svg");
+theLogo.setAttribute("src", theJson[1].owner.avatar_url);
 theHeader.appendChild(theLogo);
 
 
