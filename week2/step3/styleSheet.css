@@ -1,0 +1,25 @@
+body {
+    font-family: cursive;
+    color: cadetblue; 
+}
+
+#weathreContainer {
+    margin: 10% auto 10% auto;
+    width: 70%;
+    border: 0.2rem ridge cadetblue;
+    border-radius: 1rem;
+    background-color: azure;
+    padding: 1%;
+}
+
+#weatherHeader {
+    text-align: center;
+}
+
+#actualWeather {
+    margin-left: 3%;
+    font-size: 1.3rem
+}
+button {
+    margin-left: 2%;
+}
