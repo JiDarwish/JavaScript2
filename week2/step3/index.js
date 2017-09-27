@@ -38,8 +38,9 @@ h2.setAttribute("id", "weatherHeader");
 let p = document.createElement("p");
 p.setAttribute("id", "actualWeather");
 
-h2.innerHTML = "The weather in " + city;
+
 // adding weather info
+h2.innerHTML = "The weather in " + city;
 p.innerHTML = 
     "weather state: " + weatherState + "<br>"+
     "tempreture: " + temp + "<br>" +
