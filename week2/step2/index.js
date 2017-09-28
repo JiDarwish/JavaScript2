@@ -1,3 +1,11 @@
+// a function delayed by setTimeout
+function inTheEnd() {
+     console.log("Am I late??");
+}
+setTimeout(inTheEnd, 1000);
+
+
+
 // a function representing if an arrays' item was dividable by three
 function sayThree(){
     console.log("Three is called here!");
