@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+}
+
+
+/*Search box*/
+
+#inputBox>h1 {
+    margin-bottom: 1rem;
+}
+
+#inputBox {
+    border: ridge black 0.1rem;
+    border-radius: 2rem;
+    background-color: #7FE4E0;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 1.7rem 0;
+    margin-bottom: 4rem;
+}
+
+.searchBox {
+    width: 45%;
+    height: 2rem;
+    margin: 0.2rem 1rem;
+}
+
+#searchText {
+    text-align: center;
+}
+
+
+/* all repositories */
+
+#allRepoContainer {
+    width: 35%;
+    float: left;
+    margin-left: 2rem;
+}
+
+#allRepoContainer>ul {
+    list-style: none;
+}
+
+.oneOfAll h3 {
+    font-size: 100%;
+}
+
+.oneOfAll p {
+    padding-top: 2rem
+}
+
+
+/*searched repo's*/
+
+#searchedContainer {
+    width: 60%;
+    float: right;
+    text-align: center;
+}
+
+#searchedContainer>ul {
+    list-style: none;
+}
+
+#searchedHeader {
+    background-color: #7FE4E0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: ridge black 1px;
+    animation: appearopacity 0.8s;
+}
+
+#searchedContainer img {
+    width: 30%;
+    border: ridge black 1px;
+    border-radius: 50%;
+}
+
+#searchedContainer>ul>li {
+    width: 90%;
+}
+
+
+
+
+
+
+/*all li's*/
+
+.oneOfAll,
+.contriItems {
+    overflow: hidden;
+    background-color: #50D3CE;
+    width: 100%;
+    font-size: 100%;
+    border: ridge black 0.1rem;
+    border-radius: 1rem;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1.6rem 0.1rem;
+    animation: appearopacity 0.8s;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/*hover effects*/
+
+.oneOfAll:hover {
+    background-color: #7FE4E0;
+    transform: scale(1.1);
+}
+
+.contriItems:hover {
+    background-color: #7FE4E0;
+    transform: scale(1.12);
+}
+
+
+/* Keyframes animation*/
+
+@keyframes appearopacity {
+    0% {
+        opacity: 0.2
+    }
+    100% {
+        opacity: 1.0
+    }
+}
+
+
+/* psuedo selectors links*/
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+.
